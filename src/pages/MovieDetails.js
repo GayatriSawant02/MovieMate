@@ -18,7 +18,7 @@ const MovieDetails = () => {
   // Fetch movie details when component mounts or ID changes
   useEffect(() => {
   loadMovieDetails();
-}, [loadMovieDetails]);
+}, [id]);
 
   /**
    * Load movie details from TMDB API
