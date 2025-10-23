@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Star, Calendar, Clock, Film } from 'lucide-react';
+import { ArrowLeft, Star, Calendar, Clock } from 'lucide-react';
 import tmdbApi from '../services/tmdbApi';
 import { Loader2, AlertCircle } from 'lucide-react';
 
